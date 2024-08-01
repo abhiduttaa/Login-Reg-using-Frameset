@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Left Page</title>
+    <style>
+        a{
+            text-decoration: none;
+            text-align: center;
+            font-size: 18px;
+            margin: 20px;
+            
+        }
+        h2{
+            transition: 0.5s;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in-out;
+        }
+        h2:hover{
+            transform: scale(1.5);
+        }
+        .con{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .right{
+            margin-top: 25px;
+            font-size: 20px;
+            color: rgb(85, 3, 248);
+            font-weight: 900;
+            transition: 0.5s;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in-out;
+        }
+        body{
+            background-color: rgba(200, 150, 246, 0.603);
+        }
+        .right:HOVER{
+            transform: scale(1.2);
+        }
+    </style>
+  </head>
+  <body>
+    <div class="con">
+        <div class="left"> <img src="android-chrome-192x192.png"width="70" aling="center" alt=""></div>
+        <div class="right">Login /Signup</div>
+    </div>
+    <!-- -->
+    <a href="login.html" target="main"><h2>Login</h2></a>
+    <a href="reg.html" target="main"><h2>Registation</h2></a>
+  </body>
+</html>
